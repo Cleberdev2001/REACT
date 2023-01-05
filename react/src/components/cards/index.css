@@ -1,0 +1,99 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-inline: 20px;
+    
+}
+
+.bc{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#projects{
+    display:flex ;
+    margin-left: 60px;
+    width: 952px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mp{
+    text-align: left;
+    color: #837E9F;
+}
+
+.see a{
+    color: #837E9F;
+    text-align: end;
+    justify-content: right;
+    text-decoration: none;
+}
+
+#my-onix{
+margin-left: 60px;
+width: 450px;
+height: 186px;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+
+.folder{
+    display: flex;
+}
+
+.folder a{
+    text-decoration: none;
+    color:#837E9F;
+    margin-left: 10px;
+}
+
+.descr{
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.icon1{
+    display: flex;
+    margin-left: 10px;
+}
+
+.icon1 img{
+    margin-right: 10px;
+}
+
+.icon2{
+    display: flex;
+    justify-content: right;
+
+}
+
+.icon2 img{
+    margin-right: 10px;
+   
+    
+}
+
+.icon3{
+    display: flex;
+    margin-right: 20px; 
+}
+
+.icon3 img{  
+    margin-right:10px ;
+}

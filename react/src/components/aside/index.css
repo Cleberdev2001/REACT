@@ -1,0 +1,117 @@
+aside{
+    width: 450 px;
+    
+}
+
+aside .name{
+    font:bolder;
+    font-size: larger;
+    color:#837E9F ;
+}
+
+aside .bio{
+    font: normal;
+    font-size: small;
+    color: #837E9F;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+body {
+    background-color: #22212c;
+    color: white;
+    
+}
+
+main {
+    display: flex;
+    margin: 40px;
+}
+
+.box{
+    background: #302f3d;
+    box-shadow: 2px 2px 2px 1px rgba(0,0,0, 0.2);
+    border-radius: 20px;
+    margin-bottom: 40px;
+    padding: 50px;
+    text-align: center;
+}
+
+#profile{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#profile img{
+    border-radius: 50%;
+    height: 128px; 
+    width: 128px;
+    object-fit:cover ;
+    border: 2px solid rgb(46, 245, 218);
+}
+
+#social a{
+    display: flex;
+    gap: 20px;
+    color: #837E9F;
+    text-decoration: none;
+}
+
+#social a .logo_container{
+    width: 24px;
+    margin-bottom: 10px;
+}
+
+.titulo{
+    width: 100%;
+    text-align: center ;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    color: #837E9F;
+}
+
+#tech .item{
+    align-items: center;
+    background: #CB92B1;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 15px;
+    padding: 10px;
+    margin-inline: 5px;
+}
+
+#tech{
+    width: 315px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Exp_titulo{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#837E9F ;
+}
+
+.Exp{
+    text-align: left;
+}
+
+.edu_titulo{
+    text-align: center;
+    margin-bottom: 30px;
+    color:#837E9F ;
+}
+
+.edu{
+    text-align: left;
+}
